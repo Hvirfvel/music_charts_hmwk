@@ -1,0 +1,39 @@
+li {
+    background-color: var(--secondary-color);
+    padding: 20px 30px 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    /* width: 940px; */
+    /* height: 180px; */
+    /* display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 160px 120px 340px 300px;
+    grid-template-rows: 180px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 8rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.song-info {
+    padding: 20px;
+}
+
+.song-info p:first-child {
+    font-weight: bold;
+}
+
+img {
+    margin-left: 20px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: var(--primary-font-color);
+}

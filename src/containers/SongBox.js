@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SongList from "../components/SongList";
+import './SongBox.css';
 
 const SongBox = () => {
 
@@ -16,10 +17,10 @@ const SongBox = () => {
     }
 
     return (
-        <>
-            <h1>Top 20 songs</h1>
+        <main>
+            <h1>Top 20</h1>
             <SongList songs={songs}/>
-        </>
+        </main>
     );
 }
 

@@ -1,4 +1,5 @@
 import Song from "./Song";
+import './SongList.css';
 
 const SongList = ({songs}) => {
 
@@ -16,9 +17,9 @@ const SongList = ({songs}) => {
     })
 
     return (
-        <>
+        <ul>
         {songNodes}
-        </>
+        </ul>
     );
 }
 
